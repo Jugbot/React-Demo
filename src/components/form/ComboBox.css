@@ -1,0 +1,13 @@
+select {
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  height: 16;
+  width: 100%;
+  font-size: inherit;
+  margin: 2;
+  padding: 5;
+  box-shadow: none;
+  box-sizing: content-box;
+}

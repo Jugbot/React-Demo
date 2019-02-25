@@ -1,3 +1,10 @@
+
+* {
+  background-repeat: no-repeat; /* Set `background-repeat: no-repeat` to all elements */
+  padding: 0; /* Reset `padding` and `margin` of all elements */
+  margin: 0;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -11,4 +18,46 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+button,
+input,
+select,
+textarea {
+  background-color: transparent;
+  border-style: none;
+  color: inherit;
+}
+
+input[type=text] {
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  height: 16;
+  width: 100%;
+  font-size: inherit;
+  margin: 2;
+  padding: 5;
+  box-shadow: none;
+  box-sizing: content-box;
+}
+
+.grow {
+  flex-grow: 1 !important;
+  flex-shrink: 0 !important;
+}
+
+.shrink {
+  flex-grow: 0 !important;
+  flex-shrink: 1 !important;
+}
+
+.center-text {
+  text-align: center;
+   white-space: pre-wrap;
+}
+
+.spacey {
+  margin: 2em 2em;
 }

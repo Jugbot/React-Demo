@@ -1,0 +1,19 @@
+.vertical-labels {
+  position: relative;
+  margin: 0 4px;
+  margin-top: 2em;
+  margin-bottom: 4px;
+  min-width: 1.5in;
+}
+
+.upper-label {
+  position: absolute;
+  bottom: calc(100% + 4px);
+  left: 0;
+}
+
+.child-wrapper {
+  border: 2px solid #b5b3b2;
+  border-radius: 5px;
+  padding: 8px 12px;
+}

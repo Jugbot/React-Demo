@@ -1,0 +1,1 @@
+docker run -ti -p3000:3000 health-app
